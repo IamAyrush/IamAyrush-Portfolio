@@ -515,32 +515,32 @@ img {
   background-color: var(--first-color);
 }
 
-.skills__html {
-  width: 90%;
-}
-
-.skills__css {
+.skills__Next {
   width: 70%;
 }
 
-.skills__js {
-  width: 60%;
-}
-
-.skills__react {
-  width: 40%;
-}
-
-.skills__php {
+.skills__css {
   width: 90%;
 }
 
+.skills__js {
+  width: 80%;
+}
+
+.skills__react {
+  width: 60%;
+}
+
+.skills__express {
+  width: 70%;
+}
+
 .skills__mysql {
-  width: 72%;
+  width: 82%;
 }
 
 .skills__node {
-  width: 58%;
+  width: 95%;
 }
 
 .skills__python {
@@ -548,15 +548,18 @@ img {
 }
 
 .skills__blender {
-  width: 50%;
+  width: 75%;
 }
 
 .skills__photoshop {
-  width: 42%;
+  width: 65%;
+}
+.skills__focus {
+  width: 97%;
 }
 
 .skills__adobeillustrator {
-  width: 62%;
+  width: 90%;
 }
 
 .skills__close .skills__list {
