@@ -40,6 +40,6 @@ If you'd like to get in touch or have any questions:
 
 Email: ayrush01@gmail.com
 
-LinkedIn: linkedin.com/in/ayrush
+LinkedIn: [IamAyrush](https://www.linkedin.com/in/ayrush/)
 
-GitHub: github.com/IamAyrsuh
+GitHub: [IamAyrush](https://github.com/IamAyrush)
