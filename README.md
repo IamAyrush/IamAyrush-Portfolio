@@ -27,3 +27,19 @@ To view or modify the portfolio locally:
 1. **Clone the repository**:
    ```bash
    git clone https://github.com/iamayrush/IamAyrush-Portfolio.git
+   ```
+2. **Navigate to the project directory**:
+   ```bash
+   cd IamAyrush-Portfolio
+   ```
+3. **Open index.html in your preferred browser**.
+
+---
+## 📬 Contact
+If you'd like to get in touch or have any questions:
+
+Email: ayrush01@gmail.com
+
+LinkedIn: linkedin.com/in/ayrush
+
+GitHub: github.com/IamAyrsuh
