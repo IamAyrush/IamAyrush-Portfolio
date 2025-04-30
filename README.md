@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Ayush Verma Portfolio
 (aks Ayrush)
 
@@ -43,3 +44,6 @@ Email: ayrush01@gmail.com
 LinkedIn: [IamAyrush](https://www.linkedin.com/in/ayrush/)
 
 GitHub: [IamAyrush](https://github.com/IamAyrush)
+=======
+# Portfolio_SWE
+>>>>>>> ebaaf172bad196874f0a5ff1328dca22590f4046
