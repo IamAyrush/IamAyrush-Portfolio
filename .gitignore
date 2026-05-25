@@ -11,7 +11,6 @@ build/
 
 # TypeScript
 *.tsbuildinfo
-next-env.d.ts
 
 # Environment variables
 .env
