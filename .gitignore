@@ -40,3 +40,8 @@ Thumbs.db
 
 # Local generated scratch assets
 resume_page.png
+
+# Local-only book draft tooling
+app/book/
+app/lib/books.ts
+scripts/

@@ -15,7 +15,6 @@ import {
   Mail,
   MapPin,
   Moon,
-  Phone,
   Rocket,
   ShieldCheck,
   Sparkles,
@@ -24,9 +23,9 @@ import {
 } from "lucide-react";
 
 const links = [
-  { label: "GitHub", href: "#", icon: Github },
-  { label: "LinkedIn", href: "#", icon: Linkedin },
-  { label: "LeetCode", href: "#", icon: Code2 },
+  { label: "GitHub", href: "https://github.com/IamAyrush", icon: Github },
+  { label: "LinkedIn", href: "https://www.linkedin.com/in/ayrush/", icon: Linkedin },
+  { label: "LeetCode", href: "https://leetcode.com/u/iamayrush/", icon: Code2 },
 ];
 
 const metrics = [
@@ -42,7 +41,8 @@ const projects = [
     role: "Service Marketplace",
     period: "Jul 2025 - Dec 2025",
     stack: ["Next.js", "Clerk Auth", "Node.js", "MongoDB"],
-    demoHref: "#",
+    demoHref: "https://bliss-blush-chi.vercel.app/",
+    githubHref: "https://github.com/ThatsDronzer/Bliss",
     bullets: [
       "Built RBAC flows with secure user and vendor separation.",
       "Designed MongoDB/Mongoose schemas for users, vendors, services, and reviews.",
@@ -55,6 +55,7 @@ const projects = [
     period: "Jan 2025 - Apr 2025",
     stack: ["Node.js", "Express.js", "MongoDB", "EJS", "Bootstrap"],
     demoHref: "https://wanderlust-airbnb-gmsk.onrender.com/",
+    githubHref: "https://github.com/IamAyrush/Wanderlust-Airbnb",
     bullets: [
       "Delivered RESTful routing and complete CRUD for 100+ accommodation listings.",
       "Engineered Passport.js authentication with session middleware and protected routes.",
@@ -67,6 +68,7 @@ const projects = [
     period: "2024",
     stack: ["JavaScript", "HTML", "CSS", "Animation"],
     demoHref: "https://iamayrush.github.io/MiniProject2/",
+    githubHref: "https://github.com/IamAyrush/MiniProject2",
     bullets: [
       "Built a responsive browser game focused on reaction timing and quick visual feedback.",
       "Designed animated interactions and UI states for laptop-screen gameplay.",
@@ -78,7 +80,8 @@ const projects = [
     role: "Virtual Meetings Platform",
     period: "2024",
     stack: ["Next.js", "Video SDK", "TypeScript", "Auth"],
-    demoHref: "https://zoom-clone-app-three.vercel.app/",
+    demoHref: "https://zoom-clone-ecru-sigma.vercel.app/",
+    githubHref: "https://github.com/IamAyrush/Zoom-clone-App",
     bullets: [
       "Built a video conferencing platform with real-time meetings and guest access.",
       "Added meeting flows for video, screen sharing, and recordings.",
@@ -216,10 +219,6 @@ export default function Home() {
                 New Delhi, India
               </span>
               <span>
-                <Phone size={15} />
-                +91 8882029795
-              </span>
-              <span>
                 <Mail size={15} />
                 ayrush01@gmail.com
               </span>
@@ -330,15 +329,11 @@ export default function Home() {
                 ))}
               </ul>
               <div className="projectLinks">
-                <a
-                  href={project.demoHref}
-                  target={project.demoHref === "#" ? undefined : "_blank"}
-                  rel="noreferrer"
-                >
+                <a href={project.demoHref} target="_blank" rel="noreferrer">
                   Demo
                   <ArrowUpRight size={15} />
                 </a>
-                <a href="#">
+                <a href={project.githubHref} target="_blank" rel="noreferrer">
                   GitHub
                   <Github size={15} />
                 </a>
@@ -447,7 +442,7 @@ export default function Home() {
           {links.map((link) => {
             const Icon = link.icon;
             return (
-              <a href={link.href} key={link.label} aria-label={link.label}>
+              <a href={link.href} key={link.label} aria-label={link.label} target="_blank" rel="noreferrer">
                 <Icon size={18} />
               </a>
             );

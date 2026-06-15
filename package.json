@@ -6,10 +6,12 @@
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
+    "seed:book": "node scripts/seed-book.js",
     "lint": "next lint"
   },
   "dependencies": {
     "lucide-react": "^0.468.0",
+    "mongodb": "^6.21.0",
     "next": "^14.2.16",
     "react": "^18.3.1",
     "react-dom": "^18.3.1"
